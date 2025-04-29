@@ -1,11 +1,11 @@
 import { Component } from '@angular/core';
+import { RouterModule } from '@angular/router'; // import RouterModule
 
 @Component({
   selector: 'app-ug-opheader',
-  imports: [],
+  standalone: true,
   templateUrl: './ug-opheader.component.html',
-  styleUrl: './ug-opheader.component.css'
+  styleUrls: ['./ug-opheader.component.css'],
+  imports: [RouterModule] // ✅ add RouterModule here
 })
-export class UgOPHeaderComponent {
-
-}
+export class UgOPHeaderComponent {}

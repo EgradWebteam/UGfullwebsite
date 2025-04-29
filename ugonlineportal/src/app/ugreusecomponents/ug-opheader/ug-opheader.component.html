@@ -8,11 +8,13 @@
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-      <div class="navbar-nav">
-        <button type="button" class="btn btn-secondary"
+      <div class="navbar-nav ms-auto pl-5">
+        <a 
+          class="btn btn-secondary"
+          [routerLink]="['/login']"
           style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">
           Login
-        </button>
+        </a>
         <a class="nav-link" href="#">Home</a>
         <a class="nav-link" href="#">Contact Us</a>
       </div>

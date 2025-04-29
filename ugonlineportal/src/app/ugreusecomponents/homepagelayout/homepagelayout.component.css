@@ -1,0 +1,12 @@
+.mainbodydiv{
+    background-color: #fff;
+    box-shadow: 0 2px 4px #ccc;
+    margin: 0 auto;
+    width: 80%;
+}
+@media (max-width: 1120px) {
+    .mainbodydiv {
+        width: 100%;
+        margin: 0 auto; /* Center the div */
+    }
+}
